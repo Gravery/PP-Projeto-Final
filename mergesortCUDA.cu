@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <cuda_runtime.h>
 
+//Merge realizado no device
 __device__ void merge(int arr[], int l, int m, int r)
 {
     int i, j, k;
@@ -47,6 +48,7 @@ __device__ void merge(int arr[], int l, int m, int r)
     free(R);
 }
 
+//Kernel do mergeSort que realiza chamadas recursivas
 __global__ void mergeSort(int arr[], int l, int r)
 {
     if (l < r) {

@@ -1,0 +1,16 @@
+platform, version, execution_time_s
+CPU, Serial, 0.252
+CPU, Serial, 0.402
+CPU, Serial, 0.360
+CPU, Serial, 0.366
+CPU, Serial, 0.369
+CPU P, Paralelo, 0.216
+CPU P, Paralelo, 0.212
+CPU P, Paralelo, 0.219
+CPU P, Paralelo, 0.212
+CPU P, Paralelo, 0.217
+GPU, Paralelo, 0.198
+GPU, Paralelo, 0.201
+GPU, Paralelo, 0.248
+GPU, Paralelo, 0.198
+GPU, Paralelo, 0.194
